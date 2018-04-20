@@ -1,0 +1,47 @@
+{
+  "DEV": {
+    "log_level": "debug",
+    "db": {
+      "host": "127.0.0.1",
+      "username": "postgres",
+      "password": "tftus@123",
+      "database": "tajurba"
+    }
+  },
+  "QA": {
+    "log_level": "debug",
+    "db": {
+      "host": "localhost",
+      "username": "root",
+      "password": "root",
+      "database": "tajurba"
+    }
+  },
+  "STAGING": {
+    "log_level": "debug",
+    "db": {
+      "host": "localhost",
+      "username": "root",
+      "password": "root",
+      "database": "tajurba"
+    }
+  },
+  "PROD": {
+    "log_level": "debug",
+    "db": {
+      "host": "",
+      "username": "",
+      "password": "",
+      "database": "tajurba"
+    }
+  },
+  "TEST": {
+    "log_level": "debug",
+    "db": {
+      "host": "localhost",
+      "username": "postgres",
+      "password": "Sahil@123",
+      "database": "tajurba"
+    }
+  }
+}
